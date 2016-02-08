@@ -5,6 +5,291 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+html {
+}
+
+h1,h2,h3,h4,h5,h6 {
+/*   font-family: Tahoma, Geneva, sans-serif; */
+/*   font-family: "Trebuchet MS", Helvetica, sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+/*   font-family: Verdana, Geneva, sans-serif; */
+}
+
+#footer-container {
+  text-align: center;
+}
+
+body {
+/*   background-color: #F8F8F8; */
+  background-color: #F8F8FF;
+/*   background-color: #F0F0F0; */
+  margin: 0;
+/*   font-family: Tahoma, Geneva, sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+/*   display: -webkit-flex; */
+/*   display: flex; */
+/*   width: 400px; */
+/*   height: 250px; */
+/*   background-image: url('../img/monkaa_monkeyhang.jpg'); */
+/*   background-size: cover; */
+}
+
+header {
+/*   background-image: url('../img/official_header.jpg'); */
+  background-image: url('../img/monkaa_monkeyhang.jpg');
+/*   height: 550px; */
+  height: 600px;
+/*   width: 100%; */
+/*   background-repeat: no-repeat; */
+  background-position: center center;
+  background-size: cover;
+}
+
+h1 {
+  align: center;
+  font-size: 170px;
+  margin-left: 620px;
+  color: white;
+  margin-top: 0px;
+  font-weight: 100;
+}
+
+.subtitle {
+  margin-left: 800px;
+  margin-top: -90px;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+}
+
+/* Content ------------------------------------------------------------- */
+.content-container {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+/*   text-align: justify;   */
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+#about-2 {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+  margin-top: 295px;
+  margin-bottom: 130px;
+}
+
+/* Headshot ------------------------------------------------------------ */
+.headshot {
+  width: 250px;
+/*   float: left; */
+/*   list-style-type: inline; */
+}
+
+ul.weybec-people {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.weybec-people li {
+/*   display: inline; */
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 25px;
+/*   padding: 25px; */
+}
+
+img .headshot {
+  display: block;
+  padding: 20px;
+  margin: 10px;
+/*   background-color: blue; */
+}
+
+/* Video --------------------------------------------------------------- */
+.video-container {
+  text-align: center;
+  position: relative;
+/*   margin-right: 2%; */
+/*   margin-left: 150px; */
+/*   margin-left: 13%; */
+/*   margin-top: 5px; */
+}
+
+#video-download {
+/*   clear: left; */
+  text-align: center;
+  margin-bottom: 130px;
+/*   margin-left: 500px; */
+/*   margin-top: 100px; */
+}
+
+.download-button-1 {
+  padding-right: 54px;
+}
+
+.download-button {
+  padding-left: 17px; 
+}
+
+.download-text {
+/*   width: 200px; */
+  padding: 21px;
+  text-align: center;
+  position: relative;
+}
+
+/* Audio --------------------------------------------------------------- */
+.audio-container {
+/*   margin-left: 150px; */
+  text-align: center;
+}
+
+.audio-container-2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* Social -------------------------------------------------------------- */ 
+#social {
+  background-color: ;
+/*   position: absolute; */
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 60px;
+  transition: 0.5s width;
+}
+
+#social:hover {    /* <--- this is a pseudo class */ 
+  width: 86px;
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social li {
+  margin: 0;
+  padding 0;
+}
+
+.social-links {
+/*   margin-left: 0px; */
+}
+
+.social-links img {
+/*   width: 35px;  */
+  width: 60px;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+/* Top-Nav ------------------------------------------------------------ */
+ul.top-nav {
+/*   position: fixed; */
+  top: 0;
+/*   width: 100%; */
+  margin-top: 0;
+/*   margin-left: 50px; */
+}
+
+.top-nav {
+  list-style-type: none;
+/*   float: top; */
+  margin-top 10px;
+  padding: 10px;
+  overflow: hidden;
+/*   background-color: #333; */
+/*   position: fixed; */
+}
+
+.top-nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+  width: 33%;
+  font-size: 21px;
+}
+
+.top-nav li a {
+  display: block;
+/*   color: white; */
+  color: black;
+  text-align: center;
+  padding: 14px; 16px;
+  text-decoration: none;
+}
+
+.top-nav li a:hover {
+  color: white;
+  background-color: #111;
+  background-color: #00ccff;
+/*   position: fixed; */
+}
+
+.top-nav .active {
+  background-color: #504caf;
+}
+
+.top-nav li:last-child {
+  border-right: none;
+}
+
+/* Bottom-Nav ------------------------------------------------------------ */
+.bottom-nav {
+  list-style-type: none;
+  margin-bottom: 9px;
+  padding-bottom: ;
+  line-break: ;
+  float: top;
+}
+
+.bottom-nav {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+/*   background-color: #333; */
+}
+
+.bottom-nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+  width: 33%;
+  font-size: 21px;
+}
+
+.bottom-nav li:last-child {
+  border-right: none;
+}
+
+.bottom-nav li a {
+  display: block;
+/*   color: white; */
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bottom-nav li a:hover {
+  color: white;
+  background-color: #111;
+/*   background-color: rgba(255, 0, 0, 0.7); */
+  background-color: #00ccff;
+}
+
+.bottom-nav .active {
+  background-color: #504caf;
+/*   background-color: rgba(0, 0, 255, 0.5); */
+}
