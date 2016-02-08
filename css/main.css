@@ -136,12 +136,12 @@ img .headshot {
 }
 
 .download-button {
-  padding-left: 17px; 
+  padding-left: 29px; 
 }
 
 .download-text {
 /*   width: 200px; */
-  padding: 21px;
+  padding: 8px;
   text-align: center;
   position: relative;
 }
@@ -249,7 +249,7 @@ ul.top-nav {
 .bottom-nav {
   list-style-type: none;
   margin-bottom: 9px;
-  padding-bottom: ;
+  padding: 10px;
   line-break: ;
   float: top;
 }
